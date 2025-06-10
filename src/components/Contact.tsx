@@ -54,7 +54,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <p>Got a project waiting to be realized? Let's collaborate and make it happen! Contact me @ +263 771 060 673/tanakamasiyekariri@gmail.com</p>
           <Box
             ref={form}
             component="form"
@@ -67,7 +67,7 @@ function Contact() {
                 required
                 id="outlined-required"
                 label="Your Name"
-                placeholder="What's your name?"
+                placeholder="Tanaka M Kariri"
                 value={name}
                 onChange={(e) => {
                   setName(e.target.value);
@@ -85,7 +85,7 @@ function Contact() {
                   setEmail(e.target.value);
                 }}
                 error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
+                helperText={emailError ? "+263 771 060 673" : ""}
               />
             </div>
             <TextField

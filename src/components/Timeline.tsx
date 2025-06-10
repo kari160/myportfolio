@@ -16,26 +16,27 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2025 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Sivio Institute</h3>
+            <h4 className="vertical-timeline-element-subtitle">Harare, Zimbabwe</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+               Web Development, Data Analytics.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2023 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">TelOne Runhare House</h3>
+            <h4 className="vertical-timeline-element-subtitle">Harare, Zimbabwe</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              STUDENT INTERN -
+              Frontend Development(Angular and React), Backend Development(.Net), User Experience
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -44,22 +45,22 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">ZKT</h3>
+            <h4 className="vertical-timeline-element-subtitle">Mutare, Zimbabwe</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Monitoring And Evaluation, Data Analytics.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2019 - 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Unki Mine</h3>
+            <h4 className="vertical-timeline-element-subtitle">Chironde, Shurugwi</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Mine Ventilation Systems Intern
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
